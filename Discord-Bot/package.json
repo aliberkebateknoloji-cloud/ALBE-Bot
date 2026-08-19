@@ -1,0 +1,30 @@
+{
+  "name": "Albe bot",
+  "version": "1.0.0",
+  "description": "Modüler, performanslı,  hazır Discord botu - Discord.js v14",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "engines": {
+    "node": ">=18.17.0"
+  },
+  "keywords": [
+    "discord",
+    "discord.js",
+    "bot",
+    "moderation",
+    "ticket",
+    "guard",
+    "slash-commands"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dayjs": "^1.11.13",
+    "discord.js": "^14.18.0",
+    "dotenv": "^16.4.7",
+    "mongoose": "^8.24.3"
+  }
+}

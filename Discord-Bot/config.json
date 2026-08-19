@@ -1,0 +1,87 @@
+{
+  "bot": {
+    "name": "ALBE BOT",
+    "status": "dnd",
+    "activityType": "WATCHING",
+    "activityText": "Sunucuyu Koruyorum"
+  },
+  "embeds": {
+    "defaultColor": "#5865F2",
+    "successColor": "#57F287",
+    "errorColor": "#ED4245",
+    "warningColor": "#FEE75C",
+    "infoColor": "#E67E22",
+    "titles": {
+      "success": "Başarılı",
+      "error": "Hata",
+      "warning": "Uyarı",
+      "info": "Bilgi"
+    },
+    "footerText": "ALBE Teknoloji © 2026",
+    "footerIcon": ""
+  },
+  "emoji": {
+    "success": "✅",
+    "error": "❌",
+    "warning": "⚠️",
+    "info": "ℹ️",
+    "ticket": "🎫",
+    "welcome": "👋",
+    "guard": "🛡️",
+    "stats": "📊"
+  },
+  "moderation": {
+    "defaultReason": "Sebep belirtilmedi.",
+    "maxPurge": 100,
+    "maxTimeoutDays": 28
+  },
+  "ticket": {
+    "prefix": "ticket",
+    "categoryName": "🎫 TİCKETS",
+    "archiveCategoryName": "📦 ARCHİVED",
+    "transcriptsChannelName": "ticket-archives",
+    "maxPerUser": 3,
+    "categories": [
+      {
+        "key": "genel",
+        "label": "Genel Destek",
+        "description": "Genel konular ve yardım talepleri için.",
+        "emoji": "💬"
+      },
+      {
+        "key": "sikayet",
+        "label": "Şikayet",
+        "description": "Kullanıcı veya sunucu hakkındaki şikayetleriniz için.",
+        "emoji": "🚩"
+      },
+      {
+        "key": "yetkili",
+        "label": "Yetkili Başvurusu",
+        "description": "Moderatör / Yönetici başvuruları için.",
+        "emoji": "👮"
+      }
+    ]
+  },
+  "welcome": {
+    "joinTitle": "Yeni Üye Katıldı",
+    "leaveTitle": "Üye Ayrıldı",
+    "joinMessage": "Sunucumuza hoş geldin {user}! Şu an {memberCount}. üyemizsin.",
+    "leaveMessage": "Güle güle {user}."
+  },
+  "kayit": {
+    "panelTitle": "Kayıt Sistemi",
+    "panelDescription": "Aşağıdaki butonlardan kayıt işlemini tamamla."
+  },
+  "guard": {
+    "antibotEnabled": false,
+    "maxJoinsPerMinute": 5
+  },
+  "stats": {
+    "categoryName": "📈 İSTATİSTİK",
+    "counters": {
+      "members": { "name": "👥 Toplam Üye" },
+      "bots": { "name": "🤖 Botlar" },
+      "online": { "name": "🟢 Çevrimiçi" }
+    }
+  }
+}
