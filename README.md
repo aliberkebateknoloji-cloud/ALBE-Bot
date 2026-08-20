@@ -7,26 +7,37 @@ Tüm komutlar tek dokunuşla, slash komutu olarak karşınızda. Verileriniz gü
 
 ---
 
-### 🛠️ Gelişmiş Moderasyon & Kanal Yönetimi
-Sunucunuzu ve sohbet akışını tam kontrol altında tutun. Moderasyon ekibinizin elinin altında her şey:
+### 🛡️ Guard & Sunucu Koruma Sistemleri
+Sunucunuzu olası kriz ve raid durumlarından anında koruyun:
+
+* 🚨 `/guard` — Anti-raid koruması ve katılım limiti kontrollerini yapılandırın
+* 🔒 `/lockdown` — Acil durumlarda tüm sunucuyu veya seçili alanları kilit altına alın
+* 🔓 `/unlockdown` — Sunucu geneli kilit durumunu kaldırıp normale döndürün
+
+---
+
+### 🛠️ Gelişmiş Moderasyon Sistemleri
+Sunucunuzu ve sohbet akışını tam kontrol altında tutun:
 
 * ⛔ `/ban` — Kural ihlali yapan üyeleri anında yasaklayın
 * 🔓 `/unban` — Yasaklanmış üyelerin yasağını kaldırın
 * 🚪 `/kick` — İstenmeyen üyeleri sunucudan atın
 * ⏱️ `/timeout` — Üyelere süreli susturma uygulayın
 * 🔊 `/untimeout` — Susturmaları hızlıca kaldırın
-* 🔒 `/lock` — Metin ve ses kanallarını anında kilitler, üyelerin mesaj yazmasını/bağlanmasını engeller
-* 🔓 `/unlock` — Kanal kilidini tek komutla açarak normal akışa döndürür
-* 🧹 `/purge` — Belirttiğiniz miktarda mesajı toplu olarak temizler
+* 🔒 `/lock` — Kanalı anında kilitleyin (metin/ses desteği)
+* 🔓 `/unlock` — Kanal kilidini tek komutla açın
+* 🧹 `/purge` — Toplu mesaj temizliği yapın
 * ✏️ `/nick` — Üyelerin takma adlarını hızlıca yönetin
-* ⚠️ `/warn` & `/unwarn` & `/warns` — Kayıtlı uyarı sistemi ile üye ceza geçmişini takip edin
+* ⚠️ `/warn` — Üyeye kayıtlı uyarı cezası verin
+* ❎ `/unwarn` — Üyenin uyarısını silin
+* 📋 `/warns` — Üyenin geçmiş uyarı listesini ve detaylarını görüntüleyin
 
 *Her işlemde yetki kontrolü, rol hiyerarşisi doğrulaması ve açıklayıcı sebepler otomatik kayıt altına alınır.*
 
 ---
 
 ### 🎫 Özelleştirilebilir Destek & Ticket Sistemi
-Üyelerinizin destek taleplerini asla kaçırmayın. Profesyonel ticket altyapısı:
+Üyelerinizin destek taleplerini asla kaçırmayın:
 
 * 🧾 `/ticketpanel` — Kategori seçimli, butonlu şık ticket paneli kurun
 * ➕ `/ticket-add` — İstediğiniz üyeyi destek talebine ekleyin
@@ -37,13 +48,12 @@ Sunucunuzu ve sohbet akışını tam kontrol altında tutun. Moderasyon ekibiniz
 
 ---
 
-### 👋 Otomatik Karşılama, Kayıt & Güvenlik
-Yeni üyeleriniz için sıcak bir karşılama, hızlı bir kayıt süreci:
+### 👋 Otomatik Karşılama, Kayıt & İstatistikler
+Yeni üyeleriniz için sıcak bir karşılama ve hızlı bir kayıt süreci:
 
 * 🎉 `/welcome` — Özelleştirilebilir karşılama ve görüşürüz mesajları
 * 📝 `/kayit` — Buton destekli interaktif üye kayıt paneli
 * 📊 `/stats` — Üye/bot/çevrimiçi istatistik sayaç kanalları
-* 🛡️ `/guard` — Anti-raid koruması ve katılım limiti kontrolü
 
 ---
 
